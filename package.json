@@ -1,0 +1,8 @@
+{
+  "name": "car-rent-api",
+  "version": "1.0.0",
+  "description": "API de la aplicación car-rent",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Alejo99"
+}
