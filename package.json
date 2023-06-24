@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "API de la aplicación car-rent",
   "main": "src/index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node --watch src/index.js"
+  },
   "author": "Alejo99",
   "dependencies": {
     "dotenv": "^16.3.1",
