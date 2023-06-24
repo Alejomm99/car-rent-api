@@ -1,14 +1,21 @@
 {
-  "name": "car-rent-api",
+  "name": "pets-api",
   "version": "1.0.0",
-  "description": "API de la aplicación car-rent",
+  "description": "API de la aplicación pets",
   "main": "src/index.js",
   "scripts": {
-    "start": "node --watch src/index.js"
+    "start": "node --watch src/index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push",
+    "prisma:studio": "prisma studio"
   },
   "author": "Alejo99",
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@prisma/client": "^4.16.1",
+    "prisma": "^4.16.1"
   }
 }
